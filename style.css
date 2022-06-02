@@ -33,7 +33,11 @@ body {
 .nav-Options {
     color: white;
     font-size: 20px;
-    
+    text-decoration: none; 
+}
+.nav-Options:hover {
+    cursor: click;
+    text-decoration: underline;
 }
 
 .nav-Top {
@@ -62,9 +66,67 @@ body {
     padding-top: 40px;
 }
 
+
+
+
 .header {
     grid-area: 1 / 2 / 2 / 3;
+    background-color: #6f7984;
+    box-shadow: 0 8px 5px #2a2a2a47;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px 10px 10px 30px;
+    align-items: center;
+    gap: 20px;
 }
+
+.search-Area {
+    display: grid;
+    grid-template-columns: 40px auto 40px;
+}
+
+.search-Icon {
+    width: 30px;
+    height: 30px;
+}
+
+.search-Icon-div {
+    display: flex;
+    align-items: center;    
+}
+
+.search-Text {
+    padding: 0 5px 0 5px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.top-Right {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+}
+
+.notif-Icon {
+    height: 28px;
+    width: 28px;
+}
+
+.profile-Picture {
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.name {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    padding-right: 20px;
+}
+
 
 .content-Section {
     grid-area: 2 / 2 / 3 / 3;
