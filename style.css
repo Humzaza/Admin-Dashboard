@@ -210,3 +210,40 @@ body {
     color: white;
     padding: 20px;
 }
+
+.card-Links {
+    display: flex;
+    gap: 17px;
+    justify-content: end;
+}
+
+.content-right {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: 0.5fr 4fr;
+    color: white;
+    padding: 20px;
+    
+}
+
+.info {
+    background-color: #575f6a5b;
+    border-radius: 10px;
+    display: grid;
+    padding: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.the-Info {
+    
+}
+
+.test{
+    margin: 0;
+    padding: 0 0 10px 0;
+
+}
